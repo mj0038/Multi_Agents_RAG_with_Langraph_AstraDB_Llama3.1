@@ -1,0 +1,44 @@
+# Core LangChain dependencies
+langchain            # Main LangChain framework
+langchain_community  # Community-provided LangChain integrations
+langchain_huggingface  # HuggingFace integration for LangChain
+langchain-groq       # Groq integration for LangChain
+langchainhub         # LangChainHub for shared chains and tools
+langchain-core 
+
+# Embedding models and tokenization
+tiktoken             # Tokenizer used with OpenAI models
+chromadb             # Embedding store for vector databases
+
+# HuggingFace tools
+transformers         # HuggingFace Transformers library for embeddings
+sentence-transformers  # Pre-trained sentence embeddings (e.g., all-MiniLM-L6-v2)
+
+# Web scraping and BeautifulSoup
+beautifulsoup4       # Web scraping utility for loading URLs
+requests             # HTTP requests library (required for BeautifulSoup or custom HTTP interactions)
+
+# Cassandra and AstraDB integrations
+cassio               # Cassandra-based tools for LangChain
+astrapy              # AstraDB API integration
+
+# Environment variable management
+python-dotenv        # For loading environment variables from .env files
+
+# Jupyter and Widgets (to resolve IProgress warnings)
+jupyter              # Jupyter Notebook support
+ipywidgets           # Widgets for Jupyter (fixes Tqdm warnings)
+notebook             # Notebook support in Jupyter
+jupyterlab_widgets   # Jupyter Lab widgets for improved functionality
+
+# Debugging and development utilities
+debugpy              # VS Code debugging support
+
+
+sentence-transformers
+wikipedia
+wikipedia-api
+arxiv
+
+streamlit
+langchain_groq
